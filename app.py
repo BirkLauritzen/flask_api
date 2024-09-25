@@ -1,7 +1,5 @@
 from flask import Flask, jsonify, request
 import sqlite3
-import random
-from faker import Faker
 from data_dict import random_users
 
 app = Flask(__name__)
