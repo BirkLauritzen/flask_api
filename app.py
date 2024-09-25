@@ -34,7 +34,7 @@ with get_db_connection() as conn:
                         address, nationality, active, github_username) 
                         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''', member_data)
     
-    conn.execute('''UPDATE members SET github_username = "hej" WHERE id = 2''')
+    conn.execute('''UPDATE members SET github_username = 'BirkLauritzen' ''')
     
     conn.commit()
 
